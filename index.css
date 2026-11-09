@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+.container,
+.b3,
+.b4 {
+  justify-content: space-between;
+}
+.b5,
+.container2,
+.flexcolumn {
+  flex-direction: column;
+}
+.container2 {
+  justify-content: end;
+}
+html,
+body,
+ul {
+  padding: 0%;
+  margin: 0%;
+}
+html,
+body {
+  height: auto;
+  background-color: #CFCBC0;
+}
+ul {
+  gap: 40px;
+  align-items: center;
+  list-style: none;
+}
+.b1,
+.b2 {
+  margin: 0px 64px;
+}
+.b1 {
+  border-bottom: 1px solid #96938b;
+}
+.b3 {
+  width: 364px;
+  height: 570px;
+  padding: 40px;
+  background-color: #444B32;
+}
+.b4 {
+  background-color: #E7E2D6;
+}
+.b5 {
+  padding: 40px;
+  background-color: #EF492D;
+}
+.b3,
+.b4 {
+    flex-direction: column;
+}
+.container,
+.container2,
+.b3,
+.t1,
+.flex,
+.b4,
+.b5,
+.flexcolumn {
+  display: flex;
+}
+.flex {
+  gap: 32px;
+}
+#h {
+  gap: 40px;
+  height: 168px;
+}
+.t {
+  font-style: italic;
+  font-size: 160px;
+}
+.h {
+  margin-top: 48px;
+  margin-bottom: 54px;
+}
+.r {
+  color: #EF492D;
+}
+.white {
+  color: #F3F0E8;
+}
+.white2 {
+  color: #CFCBC0;
+}
+.gray {
+  color: #77766D;
+}
+.t1 {
+  gap: 10px;
+  align-items: center;
+  height: 110px;
+}
+.t2 {
+  margin-top: 24px;
+  margin-bottom: 42px;
+  font-size: 11px;
+  height: 15px;
+}
+.t3 {
+  height: 129px;
+  font-size: 132px;
+}
+.t4 {
+  margin-top: 24px;
+  width: 215px;
+  border-bottom: 1px solid black;
+}
+.t5 {
+  align-self: flex-end;
+}
+.t6 {
+  margin-bottom: auto;
+  height: 278px;
+  width: 318px;
+  font-size: 164px;
+  align-self: center;
+}
+.star,
+.text {
+  font-weight: bold;
+  font-size: 25px;
+  height: fit-content;
+}
+.star {
+  font-size: 27px;
+  color: #EF492D;
+}
+li {
+  font-size: 13px;
+  height: 17px;
+}
+#big {
+  font-size: 160px;
+  font-weight: 100;
+}
+.is {
+  font-family: "Instrument Serif", serif;
+}
+.dm {
+  font-family: "DM Sans",serif;
+}
+.ibm {
+  font-family: "IBM Plex Mono",serif;
+}
+.circle {
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #F3F0E8;
+  border-radius: 50%;
+}
+.circle2 {
+  margin: auto;
+  border-radius: 50%;
+  background-color: black;
+  width: 7px;
+  height: 7px;
+}
+.cen {
+  text-align: center;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.a1 {
+  color: inherit;
+  text-decoration: underline;
+}
