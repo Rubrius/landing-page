@@ -218,3 +218,40 @@ a {
   color: inherit;
   text-decoration: underline;
 }
+.section {
+  position: relative;
+  display: grid;
+}
+.trigger,
+.trig1 {
+  position: absolute;
+  inset: 30% 0;
+  pointer-events: none;
+}
+.trig1 {
+  timeline-trigger: --rev1 view();
+}
+.trigger {
+  timeline-trigger: --reveal view();
+}
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.card {
+  animation: fade-up 1.2s ease-out both;
+  animation-trigger:
+    --reveal play-forwards play-backwards;
+}
+.card1 {
+    animation-trigger:
+    --rev1 play-forwards play-backwards;
+  animation: fade-up 1.2s ease-out both;
+}
